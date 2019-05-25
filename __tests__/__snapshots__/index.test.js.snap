@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test complex getModels should match snapshot 1`] = `
+Array [
+  Object {
+    "property": "jest Test",
+    "variantA": "A",
+    "variantB": "jest",
+    "variantE": "BA",
+    "variantR": 1,
+  },
+  Object {
+    "property": "jest Test",
+    "variantA": "A",
+    "variantB": "fb",
+    "variantE": "BA",
+    "variantR": 1,
+  },
+  Object {
+    "property": "jest Test",
+    "variantA": "B",
+    "variantB": "jest",
+    "variantE": "BA",
+    "variantR": 1,
+  },
+  Object {
+    "property": "jest Test",
+    "variantA": "B",
+    "variantB": "fb",
+    "variantE": "BA",
+    "variantR": 1,
+  },
+]
+`;
+
+exports[`test simple mock getModels should match snapshot 1`] = `
+Array [
+  Object {
+    "property": "jest Test",
+    "variant": "A",
+  },
+  Object {
+    "property": "jest Test",
+    "variant": "B",
+  },
+]
+`;
