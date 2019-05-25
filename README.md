@@ -1,4 +1,4 @@
-# DYNAMIZE
+# FORM-DYNAMIZE
 
 ## WIP - WORK IN PROGRESS
 
@@ -11,17 +11,17 @@ with anything.
 ## try it
 ```bash=
 # npm
-$ npm install dynamize
+$ npm install form-dynamize
 
 # yarn
-$ yarn add dynamize
+$ yarn add form-dynamize
 ```
 
 
 ## Example
 
 ```javascript=
-const getModels = require('dynamize');
+const getModels = require('form-dynamize');
 
 const models = getModels(selectFromForm);
 ```
