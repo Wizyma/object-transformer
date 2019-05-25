@@ -1,0 +1,21 @@
+{
+  "name": "dynamize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "author": "André Gomes",
+  "license": "MIT",
+  "dependencies": {
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "git-cz": "^3.0.1",
+    "jest": "^24.8.0"
+  }
+}
