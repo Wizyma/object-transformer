@@ -1,4 +1,4 @@
-# FORM-DYNAMIZE
+# OBJECT-TRANSFORMER
 
 ## WIP - WORK IN PROGRESS
 
@@ -11,18 +11,18 @@ with anything.
 ## try it
 ```bash=
 # npm
-$ npm install form-dynamize
+$ npm install object-transformer
 
 # yarn
-$ yarn add form-dynamize
+$ yarn add object-transformer
 ```
 
 
 ## Example
-This is some kinda of case i ran into, each `hobbies` should be a single element in the database... !
+This is some kinda of case i ran into, each `hobbies` should be a single element in the database... ! 
 
 ```javascript=
-const getModels = require('form-dynamize');
+const getModels = require('object-transformer');
 
 const selectFromForm = {
   name: 'André Gomes',
