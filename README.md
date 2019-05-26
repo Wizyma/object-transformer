@@ -1,4 +1,4 @@
-# OBJECT-TRANSFORMER
+# OBJECT-TRANSFORMER-MODEL
 
 ## WIP - WORK IN PROGRESS
 
@@ -11,10 +11,10 @@ with anything.
 ## try it
 ```bash=
 # npm
-$ npm install object-transformer
+$ npm install object-transformer-model
 
 # yarn
-$ yarn add object-transformer
+$ yarn add object-transformer-model
 ```
 
 
@@ -22,7 +22,7 @@ $ yarn add object-transformer
 This is some kinda of case i ran into, each `hobbies` should be a single element in the database... ! 
 
 ```javascript=
-const getModels = require('object-transformer');
+const getModels = require('object-transformer-model');
 
 const selectFromForm = {
   name: 'André Gomes',

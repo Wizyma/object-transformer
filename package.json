@@ -1,5 +1,5 @@
 {
-  "name": "object-transformer",
+  "name": "object-transformer-model",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,6 +8,17 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "formatter",
+    "format",
+    "node",
+    "object",
+    "javacsript",
+    "model"
+  ],
+  "repository": {
+    "url": "https://github.com/Wizyma/object-transformer"
   },
   "author": "André Gomes",
   "license": "MIT",
