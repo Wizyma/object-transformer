@@ -84,6 +84,9 @@ function buildModels(input, output = []) {
     }
     // this is in the case when it is the last item
   } else if (!input[0]) {
+    // return the results
+    if(!firstItem) return output;
+
     // if output is still empty it means the first iteration starts here
     // and that there was only one item to loop through
     if(output.length === 0) {
@@ -113,8 +116,8 @@ function buildModels(input, output = []) {
   return buildModels(input, output);
 }
 
-function format(input, base) {
-  const merged = mergeAll(input);
+function format(input, base, optionnal) {
+  const merged = mergeAll(input, optionnal);
   return base.map(value => ({
     ...value,
     ...merged
@@ -127,13 +130,13 @@ function format(input, base) {
  * @param {Object} input
  * @returns {Array} models
  */
-function getModels(input) {
+function getModels(input, optionnal = {}) {
   const values = getOnlyValues(input);
   const arrays = getOnlyArrays(input);
 
   const modelFromArrays = buildModels(arrays)
 
-  return format(values, modelFromArrays);
+  return format(values, modelFromArrays, optionnal);
 }
 
 module.exports = getModels;
